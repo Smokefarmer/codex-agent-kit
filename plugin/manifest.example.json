@@ -1,7 +1,7 @@
 {
-  "name": "codex-frontend-kit",
+  "name": "codex-agent-kit",
   "version": "0.1.0",
-  "description": "Portable Codex frontend workflow kit with skills, memory templates, guardrail templates, and delegation contracts.",
+  "description": "Portable Codex agent workflow kit with skills, memory templates, guardrail templates, and delegation contracts.",
   "skills": [
     "skills/frontend-application-builder"
   ]

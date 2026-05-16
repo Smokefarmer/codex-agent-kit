@@ -1,6 +1,6 @@
-# Codex Frontend Kit
+# Codex Agent Kit
 
-Portable Codex setup for building real frontend application workflows with a consistent design system, useful defaults, and repeatable verification.
+Portable Codex setup for reusable agent work: memory, skills, guardrails, delegation contracts, and distribution. It includes a frontend application skill today, but the five-layer setup is useful for any serious Codex workflow.
 
 This folder is public-safe by design. It should not contain private product docs, customer data, screenshots, schemas, or company-specific business logic.
 
@@ -28,7 +28,7 @@ Restart Codex after installing skills or editing MCP config.
 
 ## Recommended Split
 
-- Put this kit in a public GitHub repo for reusable frontend method.
+- Put this kit in a public GitHub repo for reusable Codex operating method.
 - Keep project-specific overlays inside the private project repo.
 - Mirror private project skills to `~/.codex/skills` only on machines where you work on that project.
 
