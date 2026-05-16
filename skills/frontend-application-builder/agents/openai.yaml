@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Application Builder"
+  short_description: "Build polished app workflows."
+  default_prompt: "Use this skill to design, implement, polish, or review a real frontend application workflow with the local design system and verification."
