@@ -1,6 +1,6 @@
 # Codex Agent Kit
 
-Portable Codex setup for reusable agent work: memory, skills, guardrails, delegation contracts, and distribution. It includes a frontend application skill today, but the five-layer setup is useful for any serious Codex workflow.
+Portable Codex setup for reusable agent work: memory, skills, guardrails, delegation contracts, and distribution. It includes frontend application and grill-me skills today, but the five-layer setup is useful for any serious Codex workflow.
 
 This folder is public-safe by design. It should not contain private product docs, customer data, screenshots, schemas, or company-specific business logic.
 
