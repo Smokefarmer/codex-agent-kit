@@ -1,6 +1,6 @@
 # Codex Agent Kit
 
-Portable Codex setup for reusable agent work: memory, skills, guardrails, delegation contracts, and distribution. It includes frontend application and grill-me skills today, but the five-layer setup is useful for any serious Codex workflow.
+Portable Codex setup for reusable agent work: memory, skills, guardrails, delegation contracts, and distribution. It includes frontend application, spec-architect, and grill-me skills today, but the five-layer setup is useful for any serious Codex workflow.
 
 This folder is public-safe by design. It should not contain private product docs, customer data, screenshots, schemas, or company-specific business logic.
 
@@ -15,6 +15,13 @@ Use five durable folders/files:
 5. Plugins - `install.sh`, optional plugin packaging, and public GitHub distribution.
 
 See `FIVE_LAYERS.md` for the full Claude-to-Codex mapping.
+
+
+## Included Skills
+
+- `frontend-application-builder` — full-slice frontend implementation workflow and quality gates.
+- `spec-architect` — preflight spec hardening for larger features, API/interface changes, production/security/data-sensitive changes, and autonomous or parallel implementation. Use it to remove ambiguity before Codex turns specs into plans or tickets; do not make it mandatory for tiny edits. Adapted from Sebastian Wessel's Apache-2.0 `spec-architect` skill; see `skills/spec-architect/NOTICE.md`.
+- `grill-me` — adversarial review of tickets, plans, and implementation claims.
 
 ## Install Locally
 
